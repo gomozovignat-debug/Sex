@@ -1,0 +1,81 @@
+body {
+
+  margin: 0;
+
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-direction: column;
+
+  font-family: Arial, sans-serif;
+
+  text-align: center;
+
+  overflow: hidden;
+
+  /* ночное небо */
+
+  background: linear-gradient(to top, #0a1a4f, #5b2a86);
+
+}
+
+h1 {
+
+  color: white;
+
+  font-size: 38px;
+
+}
+
+button {
+
+  font-size: 20px;
+
+  padding: 15px 30px;
+
+  margin: 10px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+#yes {
+
+  background: #7c3aed;
+
+  color: white;
+
+}
+
+#no {
+
+  background: #1f2937;
+
+  color: white;
+
+}
+
+#gif {
+
+  display: none;
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
